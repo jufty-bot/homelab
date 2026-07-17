@@ -13,7 +13,7 @@ services:
     ########################################################################
 
     camply-db:
-        image: postgres:17@sha256:a426e44bac0b759c95894d68e1a0ac03ecc20b619f498a91aae373bf06d8508d
+        image: postgres:18@sha256:32ca0af8e77bfb8c6610c488e4691f83f972a3e9e64d3b02facf3ab111ad5500
         container_name: camply-db
         environment:
             POSTGRES_USER: ${POSTGRES_USER:-camply}
